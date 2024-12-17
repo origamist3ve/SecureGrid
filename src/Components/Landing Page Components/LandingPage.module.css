@@ -1,0 +1,160 @@
+
+.landing-page-container {
+    width: 100%;
+    height: 100vh; /* Ensures it takes up the full viewport height */
+    margin: 0 auto; /* Centers the container horizontally */
+    flex-direction: column; /* Stacks child elements vertically */
+    justify-content: space-between; /* Distributes space between child elements */
+    align-items: center; /* Centers child elements horizontally */
+    box-sizing: border-box; /* Ensures padding is included in the overall width */
+
+}
+
+.button-Container {
+    display: flex;
+    gap: 30px; /* Adds space between the buttons */
+    width: auto;
+    justify-content: flex-end;
+    padding: 10px 50px; /* Adds some space inside the header */
+}
+
+
+
+.company-login {
+    width: 178px;
+    height: 44px;
+    margin-left: 15px;
+    background: #284CEA;
+    color: #FFF;
+    font-family: "Lao Muang Don", sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vendor-login {
+    width: 178px;
+    height: 44px;
+    background: transparent;
+    color: #000;
+    font-family: "Lao Muang Don", sans-serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.shield {
+    position: absolute;
+    margin-right: auto;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    left: 30px;
+}
+
+
+
+.header-rectangle {
+    width: 100%;
+    background: #E5F1F8;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+
+
+.landing-header {
+    position: relative;
+    color: #000;
+    font-family: "Kaisei Tokumin", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    bottom: 50px;
+    left: 100px;
+}
+
+.landing-paragraph-1 {
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.Registration {
+    width: 350px;
+    height: 67px;
+    position: relative;
+    top: 10px;
+    left: 400px;
+    align-items: center;
+    background: #284CEA;
+    color: #FFF;
+    font-family: "Lao Muang Don", sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.arrow{
+    width: 37px;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+
+.box-1 {
+    height: 300px;
+    transform: scale(0.94, 0.9);
+    margin: 30px;
+    background: rgba(30, 30, 30, 0.05);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box-2 {
+    height: 300px;
+    transform: scale(0.94, 0.9);
+    margin: 30px;
+    background: rgba(30, 30, 30, 0.05);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box-3 {
+    height: 300px;
+    transform: scale(0.94, 0.9);
+    margin: 30px;
+    background: rgba(30, 30, 30, 0.05);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 150px;
+    background: #E5F1F8;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+
+
+

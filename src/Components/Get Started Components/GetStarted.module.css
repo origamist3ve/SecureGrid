@@ -1,0 +1,71 @@
+.get-started-container {
+    display: flex;
+    width: auto;
+    height: 1000px;
+    margin: 0 auto; /* Centers the container horizontally */
+    flex-direction: column; /* Stacks child elements vertically */
+    align-items: center; /* Centers child elements horizontally */
+    box-sizing: border-box; /* Ensures padding is included in the overall width */
+    background: #E5F1F8;
+    padding: 200px;
+    gap: 50px;
+}
+
+.header {
+    width: 653px;
+    height: 144px;
+    color: #1E1E1E;
+    font-family: "Kaisei Tokumin", serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitle {
+    margin-top: -100px;
+    margin-bottom: 10px;
+    color: #1E1E1E;
+    font-family: "Kaisei Tokumin", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button-container {
+    display: block;
+    justify-content: space-between;
+    gap: 50px; /* Adds space between the buttons */
+    width: auto;
+    padding: 10px 50px; /* Adds some space inside the header */
+
+}
+
+.vendor-button {
+    width: 567px;
+    height: 57px;
+    margin-bottom: 50px;
+    display: block;
+    background: #284CEA;
+    color: #FFF;
+    font-family: "Lao Muang Don", sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.company-button {
+    width: 567px;
+    height: 57px;
+    background: #284CEA;
+    color: #FFF;
+    font-family: "Lao Muang Don", sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}

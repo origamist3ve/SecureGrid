@@ -1,0 +1,536 @@
+.vendor-registration-container {
+    width: 100%;
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 50px; /* Adds space inside the container */
+    flex-direction: column; /* Stacks child elements vertically */
+    justify-content: space-between; /* Distributes space between child elements */
+    align-items: center; /* Centers child elements horizontally */
+    box-sizing: border-box; /* Ensures padding is included in the overall width */
+}
+
+.vendor-header {
+    padding: 0;
+    font-family: "Lao Muang Don", serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.vendor-subtitle {
+    margin-top: -20px;
+    padding: 0;
+    color: #000;
+    font-size: 25px;
+}
+
+.vendor-steps {
+    display: inline-flex;
+    gap: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-right: 120px;
+    left: 40px;
+}
+
+.step-counter {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.45); /* Step number color */
+    margin-bottom: -5px;
+    justify-items: center;
+}
+
+.company-information {
+    display: flex;
+    width: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-right: 50px;
+    color: #000;
+    font-family: Inter, serif;
+    font-size: 20px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-right: auto;
+    height: 50px;
+}
+
+
+
+.services-capabilities {
+    display: flex;
+    width: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-right: 50px;
+    color: #000;
+    font-family: Inter, serif;
+    font-size: 20px;
+}
+
+.compliance-security {
+    display: flex;
+    width: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-right: 50px;
+    color: #000;
+    font-family: Inter, serif;
+    font-size: 20px;
+}
+
+.Documentation {
+    display: flex;
+    width: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-right: 50px;
+    color: #000;
+    font-family: Inter, serif;
+    font-size: 20px;
+}
+
+.information-container {
+    box-sizing: border-box;
+    width: 1300px;
+    height: 1700px;
+    margin-top: 100px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    background: #FFF;
+}
+
+.information-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 301px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.information-subtitle {
+    width: 400px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #0000008C;
+    font-family: Roboto, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 38px;
+    margin-bottom: 50px;
+}
+
+.company-name-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
+
+.company-text-box {
+    width: 824px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(217, 217, 217, 0.01);
+    margin-bottom: 30px;
+    margin-left: 49px;
+    font-size: 20px;
+}
+
+.company-text-box::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.website-name-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+
+.website-text-box {
+    width: 400px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(217, 217, 217, 0.01);
+    margin-bottom: 30px;
+    margin-left: 49px;
+    font-size: 20px;
+}
+
+
+.website-text-box::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.industry-name-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.industry-text-box {
+    width: 400px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(217, 217, 217, 0.01);
+    margin-bottom: 30px;
+    margin-left: 49px;
+    font-size: 20px;
+}
+
+.industry-text-box::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.industry-website-container {
+    display: inline-flex;
+}
+
+.company-description-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.company-description-box {
+    width: 820px;
+    height: 292px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(217, 217, 217, 0.01);
+    margin-bottom: 30px;
+    margin-left: 49px;
+    line-height: 3.0;
+    font-size: 20px;
+}
+
+.company-description-box::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-name-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.contact-name-box {
+    width: 824px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(217, 217, 217, 0.01);
+    margin-bottom: 30px;
+    margin-left: 49px;
+    font-size: 20px;
+}
+
+.contact-name-box::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.email-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: -35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.email-text-box {
+    width: 824px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(217, 217, 217, 0.01);
+    margin-bottom: 30px;
+    margin-left: 49px;
+    font-size: 20px;
+}
+
+
+
+.email-text-box::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.email-text-box::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.phone-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: -35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.phone-text-box {
+    width: 824px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(217, 217, 217, 0.01);
+    margin-bottom: 30px;
+    margin-left: 49px;
+    font-size: 20px;
+}
+
+.phone-text-box::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous-button {
+    width: 112px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(217, 217, 217, 0.01);
+    color: rgba(0, 0, 0, 0.68);
+    font-family: Roboto, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.next-button {
+    width: 112px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.98);
+    background: rgba(0, 0, 0, 0.98);
+    color: #FFF;
+    font-family: Roboto, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.service-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 330px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.website-check-box {
+    width: 25px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+.industry-check-box {
+    width: 25px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+.company-check-box {
+    width: 25px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+.contact-check-box {
+    width: 25px;
+    height: 21px;
+    flex-shrink: 0;
+
+}
+
+.email-check-box {
+    width: 25px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+.phone-check-box {
+    width: 25px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+
+
+
