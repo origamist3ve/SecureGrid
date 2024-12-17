@@ -3,8 +3,11 @@ SecureGrid is a document scanning and verification application designed to facil
 
 # Key Features
 📄 Document Scanning: Upload and scan vendor-submitted documents for verification.
+
 🔐 Secure Communication: Establish a trusted communication channel between vendors and the company.
+
 ⚡ Fast and Reliable: Powered by Firebase for seamless backend functionality.
+
 🔧 Easy Setup: Configure your own Firebase credentials to run the app locally.
 
 # Tech Stack
